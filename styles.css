@@ -1,0 +1,60 @@
+body {
+	background-color: aliceblue;
+}
+
+#img{
+    
+    width: 100px;
+    height:100px;
+    background-position: center;
+    background-size: cover;
+
+}
+
+body {
+    background-image: url("op_background.gif");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.panel {
+	margin-top: 8%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	color: rgb(0, 0, 0);
+}
+
+.question {
+	font-size: 30px;
+	margin-bottom: 20px;
+}
+
+.options {
+	font-size: 30px;
+	display: grid;
+	grid-template-columns: repeat(2, 1fr);
+	grid-gap: 20px;
+	margin-top: 10px;
+	margin-bottom: 20px;
+	position: fixed;
+	top: 40%;
+	left: 40%;
+}
+
+button {
+	margin-right: 75px;
+	font-size: 20px;
+	padding: 10px 20px;
+	background-color: #4f98c2;
+	color: white;
+	border: none;
+	cursor: pointer;
+}
+
+#score {
+	font-size: 30px;
+	color: darkslategray;
+}
